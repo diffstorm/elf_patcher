@@ -1,4 +1,9 @@
-// g++ -g0 -o3 -fvisibility=hidden -fvisibility-inlines-hidden -fno-common -ffunction-sections -fdata-sections elf_patcher.cpp -o elf_patcher
+/*
+        Copyright (c) 2016 Eray Ozturk <erayozturk1@gmail.com>
+*/
+
+// Build :
+// g++ -g0 -o2 -fvisibility=hidden -fvisibility-inlines-hidden -fno-common -ffunction-sections -fdata-sections elf_patcher.cpp -o elf_patcher
 // sstrip elf_patcher
 
 #include <stdio.h>
